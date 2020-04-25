@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tarafi.velolibreapp.common.app.views.ATHeader
+        android:id="@+id/ABHeader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:header_back="true"
+        app:header_title="@string/header_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/ATTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="@string/station_label"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ABHeader"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/stationText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grayDark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ATTextView"
+        app:layout_constraintTop_toBottomOf="@+id/ABHeader"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/grayDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stationText" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/ATTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="8dp"
+        android:text="@string/contrat_label"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/contratText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grayDark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ATTextView11"
+        app:layout_constraintTop_toTopOf="@+id/ATTextView11"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/grayDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView11" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/ATTextView110"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="@string/nbre_place_label"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView11"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/nbreVeloText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grayDark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ATTextView110"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView11"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/grayDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView110" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/ATTextView120"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="@string/nbre_velo_dispo_label"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView110"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/nbreVeloDispoText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grayDark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ATTextView120"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView110"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/grayDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView120" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/ATTextView13"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="@string/addresse_label"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView120"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/addresseText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grayDark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ATTextView13"
+        app:layout_constraintTop_toBottomOf="@+id/ATTextView120"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/grayDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addresseText" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/ATTextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:padding="8dp"
+        android:text="@string/status_label"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+
+    <com.tarafi.velolibreapp.common.app.views.ATTextView
+        android:id="@+id/statusText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:padding="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/grayDark"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ATTextView14"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        custom:font_name="nunito_sans"
+        custom:font_type="bold" />
+</androidx.constraintlayout.widget.ConstraintLayout>

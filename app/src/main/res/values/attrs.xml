@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ATHeader">
+        <attr name="header_title" format="string" localization="suggested" />
+        <attr name="header_menu" format="boolean" />
+        <attr name="header_back" format="boolean" />
+        <attr name="header_right_icn" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="View">
+        <attr name="font_name" format="enum">
+            <enum name="lato" value="0"/>
+            <enum name="open_sans" value="5"/>
+            <enum name="nunito_sans" value="8"/>
+
+        </attr>
+
+        <attr name="font_type" format="enum">
+            <enum name="bold" value="0"/>
+            <enum name="light" value="1"/>
+            <enum name="medium" value="2"/>
+            <enum name="regular" value="3"/>
+            <enum name="extra_bold" value="6"/>
+            <enum name="semi_bold" value="7"/>
+        </attr>
+    </declare-styleable>
+</resources>

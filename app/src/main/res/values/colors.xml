@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_tr50">#80000000</color>
+    <color name="gray">#4A4A4A</color>
+    <color name="grayLight">#F6F6F5</color>
+    <color name="grayLightTransparent">#E6DEDDD9</color>
+    <color name="red">#CC2E18</color>
+    <color name="no_color">#00000000</color>
+    <color name="grayDark">#999da0</color>
+    <color name="yellow">#F6B617</color>
+    <color name="orange">#FF7800</color>
+
+
+
+    <color name="headerColor">@color/grayLight</color>
+    <color name="splashScreenBg">#222222</color>
+    <color name="appBackground">#D2D0CD</color>
+    <color name="yellow_dashboard_chart">#f7b634</color>
+    <color name="red_dashboard_chart">#E85440</color>
+    <color name="green">#55A300</color>
+
+
+
+    <color name="app_divider">#e5e5e5</color>
+
+
+    <color name="edittext_hint_color">#777b7e</color>
+    <color name="add_shortcut_color_text">#757575</color>
+
+    <color name="account_number_color">#7f8080</color>
+
+
+
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="api_map_key" translatable="false">AIzaSyBSIwxbcg1sbXrZcgmDEzXKAwpF8fPO3gk</string>
+
+    <string name="app_name">Vélos en libre-service</string>
+    <string name="welcome">Welcome to Dashboard</string>
+    <string name="current_location_text">Votre localisation actuelle</string>
+    <string name="header_detail">Station</string>
+    <string name="closed_text">Fermée</string>
+    <string name="open_text">Ouverte</string>
+    <string name="unknown_text">Non défini</string>
+    <string name="station_label">Nom de la station:</string>
+    <string name="contrat_label">Nom du contrat:</string>
+    <string name="nbre_place_label">Nombre de vélo total:</string>
+    <string name="nbre_velo_dispo_label">Nombre de vélo disponible:</string>
+    <string name="addresse_label">Adresse:</string>
+    <string name="status_label">Statut:</string>
+</resources>
